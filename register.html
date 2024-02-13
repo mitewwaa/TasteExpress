@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>TasteExpress</title>
+
+        <script src="https://kit.fontawesome.com/d76841c520.js" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="styles/register.css">
+        <script src="./scripts/register.js" type="module"></script>
+    </head>
+    <body>
+        <header id="header">
+            <img src="img/Logo-light.png" alt="The logo of TasteExpress" class="logo light">
+            <h1>TasteExpress</h1>
+        </header>
+        <main id="main">
+                <section class="left-section">
+                    <i class="fa-solid fa-circle-arrow-left icon"></i>
+                    <img src="img/Logo-light.png" alt="The logo of TasteExpress" class="logo main">
+                </section>
+                <section class="right-section">
+                    <i class="fa-solid fa-circle-arrow-left icon form"></i>
+                    <form class="register-form">
+                        <h2>Sign up to see where or what to eat today.</h2>
+                        
+                        <span class="register-error"></span>
+
+                        <input name="email" placeholder="Email" id="email" required/>
+                        <input name="full-name" placeholder="Full name" id="full-name"/>
+                        <input type="password" name="password" placeholder="Password" id="password" required/>
+                        <input type="password" name="repeat-password" placeholder="Repeat Password" id="repeat-passwоrd" required/>
+            
+                        <button type="submit" id="register-btn">Register</button>
+                    </form>
+                </section>
+        </main>
+    </body>
+</html>
